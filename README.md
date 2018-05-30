@@ -1,11 +1,16 @@
 # HAL2+HTK2 = HAUL2
-HAUL2, like HAUL1, consists of the language *HAL2* (HotKey's Average Language 2) and *HTKs* (HAL2 Translation Kernels). Except this time it actually uses some concept of "tokens" for the translation. The language *HAL2* now looks less like assembly and is actually quite clean and readable.
+*HotKey's Average Language 2* and *HAL2 Translation Kernels*
 
-HAUL2 can translate itself into other languages and package everything up into one stand-alone file. So you can have a .py file that turns into a .js file when running it. This chain can go on and on and on...
+## About
+The goal of HAUL is to have a piece of code that can translate itself into any other language. (See also: [Transpiler](https://en.wikipedia.org/wiki/Source-to-source_compiler), [Quine](https://en.wikipedia.org/wiki/Quine_(computing)), [LLVM](https://llvm.org/), etc.)
 
-Though this is already really entertaining, the choices of destination languages is still pretty limited by the fact that there is no real AST. That means, that it can only translate into other scripting languages that are somewhat similar in style.
+Like the first version, HAUL2 consists of a language called *HAL2* (HotKey's Average Language 2) and a few *HTKs* (HAL2 Translation Kernels). Except this time it actually uses some concept of "tokens" for the translation, which makes the source code more flexible. The language *HAL2* now looks less like assembly and is actually surprisingly clean and readable.
 
-But, all in all, this is a funny little toy!
+HAUL2 can translate itself into other languages and package everything up into one stand-alone file. So you can have a .py file that turns into a .js file when you run it. And then it becomes a .vbs file. Fun for days.
+
+While this is already really entertaining, the choices of destination languages is pretty limited by the fact that there is no real AST. That means, that it can only translate into other scripting languages that are somewhat similar in style. Hence the word "average" in its name.
+
+But, all in all, this is a fun little toy!
 
 Have fun and don't break things!
 
