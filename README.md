@@ -1,4 +1,4 @@
-# HAL2+HTK2 = HAUL2 (2012-02 - 2013-01)
+# HAL2+HTK2 = HAUL2
 HAUL2, like HAUL1, consists of the language *HAL2* (HotKey's Average Language 2) and *HTKs* (HAL2 Translation Kernels). Except this time it actually uses some concept of "tokens" for the translation. The language *HAL2* now looks less like assembly and is actually quite clean and readable.
 
 HAUL2 can translate itself into other languages and package everything up into one stand-alone file. So you can have a .py file that turns into a .js file when running it. This chain can go on and on and on...
@@ -12,8 +12,9 @@ Have fun and don't break things!
 //HotKey
 
 ## Versions
-This project has been superseded by [HAUL3](https://github.com/hotkeymuc/haul3) which comes with a more powerful lexer and parser.
-If you are curious for the origins of this project, then have a look at the ugly PHP based first version [HAUL1](https://github.com/hotkeymuc/haul1).
+This second version was in development between early 2012 and 2013. It is based on the ugly PHP based first version [HAUL1](https://github.com/hotkeymuc/haul1) which was more like a proof-of-concept.
+
+It has been superseded by [HAUL3](https://github.com/hotkeymuc/haul3) which comes with a more powerful lexer and parser that knows namespaces and has a real AST.
 
 
 ## Features and Limitations
