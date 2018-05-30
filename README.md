@@ -6,7 +6,9 @@ The goal of HAUL is to have a piece of code that can translate itself into any o
 
 Like the first version, HAUL2 consists of a language called *HAL2* (HotKey's Average Language 2) and a few *HTKs* (HAL2 Translation Kernels). Except this time it actually uses some concept of "tokens" for the translation, which makes the source code more flexible. The language *HAL2* now looks less like assembly and is actually surprisingly clean and readable.
 
-HAUL2 can translate itself into other languages and package everything up into one stand-alone file. So you can have a .py file that turns into a .js file when you run it. And then it becomes a .vbs file. Fun for days.
+HAUL2 can translate itself into other languages and package everything up into one stand-alone file. So you can have a .py file that turns into a .js file when you run it. And then it becomes something else, again. Fun for days.
+
+![Polymorphic Build](https://raw.githubusercontent.com/hotkeymuc/haul2/master/media/build_polymorphic.gif "Polymorphic Build")
 
 While this is already really entertaining, the choices of destination languages is pretty limited by the fact that there is no real AST. That means, that it can only translate into other scripting languages that are somewhat similar in style. Hence the word "average" in its name.
 
